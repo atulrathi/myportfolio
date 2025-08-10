@@ -1,0 +1,556 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 21px;
+  background-color: #fafafa;
+}
+
+#greet {
+  position: relative;
+  padding-left: 4rem;
+  padding-top: 1.2rem;
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
+}
+
+#greet span {
+  color: lavenderblush;
+}
+
+#app {
+  height: 106vh;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+#page2 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: -7%;
+  background-color: black;
+}
+
+#page {
+  height: 40px;
+  width: 100%;
+}
+
+#navbar {
+  height: 80px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: rgb(83, 44, 119);
+  z-index: 9;
+  border-radius: 21px;
+  transition: transform 2s ease-in;
+  transform-origin: right;
+}
+
+#nav1 {
+  display: flex;
+  padding-top: 0.2rem;
+  gap: 6rem;
+  position: relative;
+  right: -5%;
+}
+
+#nav a {
+  font-size: 19px;
+  font-weight: 100;
+  text-decoration: none;
+  color: lavenderblush;
+  font-family: 'nunito', sans-serif;
+  transition: all 0.3s ease;
+}
+
+#nav a:hover {
+  color: rgb(151, 144, 147);
+  transform: scaleX(0.7);
+}
+
+#nav5 {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  width: 50px;
+  color: lavenderblush;
+  font-size: 19px;
+  font-weight: 100;
+  font-family: 'nunito', sans-serif;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+#nav5:hover {
+  color: rgb(151, 144, 147);
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: blueviolet;
+  position: relative;
+  top: -20px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  z-index: 5;
+}
+
+#intro {
+  display: flex;
+}
+
+#img img {
+  height: 700px;
+  width: 700px;
+  position: relative;
+  top: 9rem;
+  left: 4rem;
+  z-index: 13;
+  transition: all 0.4s ease;
+}
+
+#intron {
+  line-height: 40px;
+  width: 500px;
+  font-size: 40px;
+  position: absolute;
+  top: 26%;
+  right: 10%;
+  font-weight: 50;
+  font-family: 'nunito', sans-serif;
+  color: #2e2e2e;
+}
+
+span {
+  color: lavenderblush;
+  font-weight: 100;
+  font-family: 'nunito', sans-serif;
+}
+
+#btn1 {
+  width: 260px;
+  height: 60px;
+  background-color: #2e2e2e;
+  color: white;
+  border-radius: 11px;
+  font-size: 1.5rem;
+  font-family: 'nunito', sans-serif;
+  transition: all 0.3s ease;
+}
+
+#btn1:hover {
+  background-color: lavenderblush;
+  color: #2e2e2e;
+  transform: scale(1.02);
+  outline: none;
+  border: 0;
+}
+
+#about {
+  position: relative;
+  height: 230px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#errow {
+  position: relative;
+  top: 0rem;
+  right: -20%;
+  color: lavenderblush;
+  font-weight: 100;
+  font-family: 'nunito', sans-serif;
+}
+
+#aboutcontainer h1 {
+  font-size: 89px;
+  color: blueviolet;
+  font-family: 'nunito', sans-serif;
+}
+
+#aboutinfo {
+  position: relative;
+  width: 45%;
+  padding-left: 6rem;
+}
+
+#info {
+  color: lavenderblush;
+  line-height: 38px;
+  font-family: 'nunito', sans-serif;
+  font-size: 20px;
+
+}
+
+#info img {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: -2rem;
+  right: -100%rem;
+  background-color: transparent;
+}
+
+#info strong {
+  font-family: 'nunito', sans-serif;
+}
+
+#pop {
+  padding-left: 44rem;
+  color: rgb(83, 44, 119);
+  font-size: 101px;
+}
+
+#info p strong {
+  font-family: 'nunito', sans-serif;
+  font-size: 101px;
+  color: rgb(83, 44, 119);
+}
+
+#info b {
+  font-size: 28px;
+  color: blueviolet;
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: blueviolet;
+  position: sticky;
+  top: -10px;
+}
+
+#page4 {
+  position: absolute;
+  top: -8%;
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+}
+
+
+#projects-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: blueviolet;
+}
+
+#projects-section h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'nunito', sans-serif;
+  font-size: 89px;
+  color: lavenderblush;
+  position: relative;
+  top: -2rem;
+}
+
+#box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.param {
+  position: absolute;
+  width: 1100px;
+  height: 570px;
+  border-radius: 31px;
+  bottom: 30%;
+}
+
+.param1 {
+  height: 600px;
+  width: 800px;
+  background: white;
+  z-index: 10;
+  transform: rotate(3deg);
+  font-family: 'nunito', sans-serif;
+}
+
+.param2 {
+  background: #ffeb3b;
+  z-index: 9;
+  transform: rotate(-3deg);
+  font-family: 'nunito', sans-serif;
+}
+
+.param3 {
+  background: #ff2daf;
+  z-index: 8;
+  transform: rotate(2deg);
+  font-family: 'nunito', sans-serif;
+}
+
+.param4 {
+  background: #ffffff;
+  z-index: 7;
+  transform: rotate(4deg);
+  font-family: 'nunito', sans-serif;
+}
+
+.param5 {
+  background: 00ffff;
+  z-index: 6;
+  transform: rotate(-4deg);
+  font-family: 'nunito', sans-serif;
+}
+
+.param6 {
+  background-color: #d3d3d3;
+  z-index: 5;
+  opacity: 0;
+  transform: translateY(-100%);
+  position: absolute;
+  bottom: 47%;
+  font-family: 'nunito', sans-serif;
+}
+
+
+.param h2 {
+  text-align: center;
+  font-size: 50px;
+  color: blueviolet;
+}
+
+
+
+.param p {
+  font-size: 1.2rem;
+  padding: 2rem;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color: rgb(73, 3, 139);
+}
+
+.param6 h2 {
+  font-size: 80px;
+  position: relative;
+  top: -2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.param6 h3 {
+  font-size: 50px;
+  position: relative;
+  left: 25%;
+  top: -6rem;
+  color: blueviolet;
+}
+
+.param6 h4 {
+  position: absolute;
+  top: 10rem;
+  left: 23rem;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.param3 p {
+  color: rgb(203, 193, 197);
+}
+
+.param3 h2 {
+  color: lavenderblush;
+}
+
+#repo {
+  color: black;
+  position: relative;
+  left: 40%;
+  text-decoration: none;
+  border: 2px solid blueviolet;
+  padding: 1rem;
+  border-radius: 21px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* 
+.param5 h2 {
+  color: #ffeb3b;
+} */
+
+.param5 {
+  background-color: pink;
+}
+
+/* 
+.param5 p {
+  color: #a59502;
+} */
+.contact {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  position: relative;
+  left: 28%;
+  top: -3rem;
+}
+
+.input1 {
+  position: relative;
+  left: 2rem;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.input2 {
+  position: relative;
+  width: 300px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.input3 {
+  position: absolute;
+  top: 4rem;
+  left: 25%;
+  width: 500px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.button {
+  position: absolute;
+  top: 2rem;
+  right: 12rem;
+  height: 50px;
+  width: 100px;
+  border-radius: 21px;
+  background-color: blueviolet;
+  color: lavenderblush;
+  outline: none;
+  border: 0;
+  font-size: 20px;
+  font-family: 'nunito', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(61, 3, 115);
+  transform: scale(1.1);
+}
+
+#socalcon {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  position: relative;
+  bottom: -10rem;
+  left: -20rem;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.github {
+  height: 22px;
+  width: 22px;
+}
+
+.instagram {
+  height: 35px;
+  width: 35px;
+}
+
+.x {
+  height: 25px;
+  width: 40px;
+}
+
+.linkedin {
+  height: 30px;
+  width: 30px;
+}
+
+.insta {
+  transition: all 0.3s ease-in-out;
+}
+
+.insta:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+
+#media {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 4.6rem;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.github1 {
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+}
+
+.instagram1 {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+}
+
+.x1 {
+  height: 30px;
+  width: 30px;
+}
+
+.linkedin1 {
+  height: 30px;
+  width: 30px;
+}
+
+#card3 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
