@@ -36,17 +36,17 @@ function Landing() {
   return (
     <div id="intro">
       <div id="img">
-        <img src="logo4.png"></img></div>;
+        <img src="/images/logo4.png"></img></div>;
       <div id="intron">
         <h1>Hii, I'm</h1>
         <h1 id="atul"><span ref={el}></span></h1>
         <p>Web Developer</p>
         <button onClick={() => scrollp('card1')} id="btn1">View Projects</button>
         <div id='media'>
-          <a href='https://github.com/atulrathi'><img src='github2.png' className='insta github1'></img></a>
-          <a href='https://www.instagram.com/atul.rathii'><img src='insta.webp' className='insta instagram1'></img></a>
-          <a href='https://x.com/imatulrathi'> <img src='x2.png' className='insta x1'></img></a>
-          <a href='https://www.linkedin.com/in/atulrathi18/'><img src='linkedin2.png' className='insta linkedin1'></img></a>
+          <a href='https://github.com/atulrathi'><img src='/images/github2.png' className='insta github1'></img></a>
+          <a href='https://www.instagram.com/atul.rathii'><img src='/images/insta.webp' className='insta instagram1'></img></a>
+          <a href='https://x.com/imatulrathi'> <img src='/images/x2.png' className='insta x1'></img></a>
+          <a href='https://www.linkedin.com/in/atulrathi18/'><img src='/images/linkedin2.png' className='insta linkedin1'></img></a>
         </div>
         <h2 id="errow"> <IoChevronDownSharp size={40} /></h2>
       </div>

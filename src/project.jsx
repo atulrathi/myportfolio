@@ -90,10 +90,10 @@ const Projects = () => {
               <button className='button'>Submit</button>
             </form>
             <div id='socalcon'>
-              <a href='https://github.com/atulrathi'><img src='github.webp' className='insta github'></img></a>
-              <a href='https://www.instagram.com/atul.rathii'><img src='instagam.webp' className='insta instagram'></img></a>
-              <a href='https://x.com/imatulrathi'> <img src='x.png' className='insta x'></img></a>
-              <a href='https://www.linkedin.com/in/atulrathi18/'><img src='linkedin.webp' className='insta linkedin'></img></a>
+              <a href='https://github.com/atulrathi'><img src='/images/github.webp' className='insta github'></img></a>
+              <a href='https://www.instagram.com/atul.rathii'><img src='/images/instagam.webp' className='insta instagram'></img></a>
+              <a href='https://x.com/imatulrathi'> <img src='/images/x.png' className='insta x'></img></a>
+              <a href='https://www.linkedin.com/in/atulrathi18/'><img src='/images/linkedin.webp' className='insta linkedin'></img></a>
             </div>
           </div>
 

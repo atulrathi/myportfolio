@@ -30,7 +30,7 @@ function Info() {
 
         I’ve built several projects, including Clown (a Pinterest-style app) and TaskPilot, where I combined strong API skills with modern UI/UX.</p>
       <strong id="pop">"</strong>
-      <img src="./about.webp"></img>
+      <img src="/images/about.webp"></img>
     </div>
   );
 }
